@@ -1,0 +1,33 @@
+{
+  "URL": "http://localhost:5001/v6.22.0.html",
+  "Xpath": {
+    "mode": "(//p[@class='navbar-secondaryText'])",
+    "scanbutton": "//button[@id='csScanNetworkBtn']",
+    "Iptextbox": "rc-select-search__field",
+    "connect_button": "//button[@id='csConnectBtn']",
+    "loading_icon": "//div[@class='set_button_position']/div[@class='connection-setup-cliploader-div']",
+    "Connectbutton": "//button[@id='csConnectBtn']",
+    "Tester_status": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[1]",
+    "Serial_Number": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[2]",
+    "Firmware_version": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[3]",
+    "Tester_IP_Address_Information": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[4]",
+    "Last_calibration_date": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[5]",
+    "Next_calibration_date": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[6]",
+    "Test_cable_calibration_status": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[7]",
+    "C2_tester_calibration": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[8]",
+    "C2-EPR_Tester_Calibration": "(//th[@class='panel-connection-setup-tester-info device-details-border'])[8]",
+    "AddressText": "(//div[@class='panel-div'])[2]",
+    "Ipdropdown": ".rc-select-dropdown-menu-item",
+    "option": "option",
+    "connection_status": "(//td[@class='panel-connection-setup-tester-info tester-info-border device-details-border-right'])[1]",
+    "SetupDiagram_button": "//a[@id='csSetupDiagramLinkLabel']",
+    "SetupDiagram_image": "//img[@class='popup-img' and contains(@src, '../../images/Setup Images/Static.png')]",
+    "imageok": "//button[@class='popupButtons popupButton_Ok btn btn-primary']",
+    "Serial.Number": "(//div[@class='right-spacing-tester'])[1]//b",
+    "Firmware.Version": "(//div[@class='right-spacing-tester'])[2]//b",
+    "Tester.IP.Address.Information": "(//div[@class='right-spacing-tester'])[3]",
+    "FW_updatebutton": "//button[@id='csUpdateFirmwareBtn']",
+    "FW_updatediagram": "//img[@class='popup-img' and contains(@src, '../../images/Setup Images/C2FWUpdate.png')]",
+    "FWupdate_status": "(//div[@class='form-group2 display-message-div'])[1]//strong"
+  }
+}

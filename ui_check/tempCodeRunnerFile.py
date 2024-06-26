@@ -1,0 +1,9 @@
+canNetworkstate(self.driver)
+        tc9_devicedetails(self.driver)
+        tc10_addressText(self.driver) 
+        tc11_defaultIp(self.driver)
+        tc12_dynamicIp(self.driver)
+        tc13_invalidIP(self.driver)
+        tc14_unreachableIP(self.driver)
+        tc15_ImageCompare(self.driver)
+        tc16_sw_hw_d
