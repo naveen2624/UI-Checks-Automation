@@ -31,13 +31,14 @@ driver.quit()
 print("Selenium is successfully imported and working.")
   ```
   3.Save and Run the Script:
+  
   • Save the script with a .py extension, for example, selenium_test.py.
   • Now run selenium_test.py.
   • If Selenium is imported correctly and the WebDriver launches Chrome and accesses 
   Google, you should see output similar to:
---------------------------------------------------------------------------------------------------------------------------
-Page title: Google
---------------------------------------------------------------------------------------------------------------------------
+  
+```Page title: Google```
+
 Selenium is successfully imported and working.
 
 Make sure you have the appropriate WebDriver for your browser in the directory:
@@ -46,15 +47,16 @@ For example, if you're using Chrome, download the ChromeDriver from here.
 
 ## Step 2: Install PyYAML
 Open your terminal or command prompt and run the following command:
+
 ```pip install PyYAML```
 
 PyYAML is a YAML parser and emitter for Python.
 
 ## Step 3: Install Logging
 Open your terminal or command prompt and run the following command:
-```
-pip install logging
-```
+
+```pip install logging```
+
 Logging is a module for Python that provides a flexible framework for emitting log messages 
 from Python programs.
 
