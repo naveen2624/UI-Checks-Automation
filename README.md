@@ -15,9 +15,9 @@ performing browser automation.
 
   ### Installation:
   Open your terminal or command prompt and run the following command:
-  
-  ```pip install selenium```
-  
+  ```
+  pip install selenium
+  ```
   ### Verification: 
   To verify the installation, you can run a simple script to check if Selenium is 
   working:
@@ -56,7 +56,9 @@ For example, if you're using Chrome, download the ChromeDriver from here.
 
 Open your terminal or command prompt and run the following command:
 
-```pip install PyYAML```
+```
+pip install PyYAML
+```
 
 PyYAML is a YAML parser and emitter for Python.
 
@@ -64,7 +66,9 @@ PyYAML is a YAML parser and emitter for Python.
 
 Open your terminal or command prompt and run the following command:
 
-```pip install logging```
+```
+pip install logging
+```
 
 Logging is a module for Python that provides a flexible framework for emitting log messages 
 from Python programs.
