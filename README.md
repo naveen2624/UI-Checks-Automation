@@ -38,7 +38,9 @@ print("Selenium is successfully imported and working.")
  #### 3.Save and Run the Script:
   
   • Save the script with a .py extension, for example, selenium_test.py.
+  
   • Now run selenium_test.py.
+  
   • If Selenium is imported correctly and the WebDriver launches Chrome and accesses 
   Google, you should see output similar to:
   
