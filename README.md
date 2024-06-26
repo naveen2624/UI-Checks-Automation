@@ -12,7 +12,8 @@
 performing browser automation.
 
   Installation: Open your terminal or command prompt and run the following command:
-  >> pip install selenium
+  
+  ```pip install selenium```
   Verification: To verify the installation, you can run a simple script to check if Selenium is 
   working:
 
@@ -20,14 +21,13 @@ performing browser automation.
   Open your preferred text editor or IDE (such as VS Code, PyCharm, or any text editor).
 
   2.Write the Script:
--------------------------------------------------------------------------------------------------------------------------
+  
 from selenium import webdriver
 driver = webdriver.Chrome
 driver.get("https://www.google.com")
 print("Page title:", driver.title)
 driver.quit() 
 print("Selenium is successfully imported and working.")
---------------------------------------------------------------------------------------------------------------------------
   
   3.Save and Run the Script:
   • Save the script with a .py extension, for example, selenium_test.py.
