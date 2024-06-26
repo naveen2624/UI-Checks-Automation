@@ -22,11 +22,11 @@ performing browser automation.
   To verify the installation, you can run a simple script to check if Selenium is 
   working:
 
-  1.Create a Python Script:
+ #### 1.Create a Python Script:
   
   Open your preferred text editor or IDE (such as VS Code, PyCharm, or any text editor).
 
-  2.Write the Script:
+ #### 2.Write the Script:
   ```
 from selenium import webdriver
 driver = webdriver.Chrome
@@ -35,7 +35,7 @@ print("Page title:", driver.title)
 driver.quit() 
 print("Selenium is successfully imported and working.")
   ```
- ### 3.Save and Run the Script:
+ #### 3.Save and Run the Script:
   
   • Save the script with a .py extension, for example, selenium_test.py.
   • Now run selenium_test.py.
@@ -71,10 +71,26 @@ from Python programs.
 
 ## Step 4: Changing the mode
 
-In the directory “UI Checks Automation\json\setting.json”, update the following fields in the 
-YAML File:
+In the directory 
+```“UI Checks Automation\json\setting.json”```
+update the following fields in the YAML File:
+
 1. Mode: If the Tester is "C2", set the mode to "C2". If the Tester is "C2 EPR", set the 
 mode to "C2EPR".
 2. DynamicIP: Update the IP address as needed. (ex. 192.168.5.17)
 3. Static_dynamic: Modify this field based on how the tester is connected to the 
 computer. (ex. Static or Dynamic).
+
+![image](https://github.com/naveen2624/UI-Checks-Automation/assets/112943571/4b675d1d-75af-4f0b-91b2-41f4ad91f385)
+
+
+## Step 5: Execute the Program
+
+Run the ui_check_setup.py script in Visual Studio Code and wait for 2-3 minutes for the 
+execution to complete. 
+
+After execution the logs will be stored in the directory.
+
+```“UI Checks Automation \ui_check\Logs”```
+
+![image](https://github.com/naveen2624/UI-Checks-Automation/assets/112943571/fbf1de18-556f-47b2-ad74-dd6dcdc9b968)
